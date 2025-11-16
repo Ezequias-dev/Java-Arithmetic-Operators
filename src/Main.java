@@ -5,5 +5,12 @@ public class Main {
         int b = 13;
 
         System.out.println(a + b);
+
+        // 2. Calcule a área de um retângulo com double largura = 5.5 e double altura = 3.2. Imprima com mensagem.
+        double largura = 5.5;
+        double altura = 3.2;
+        double area = largura * altura;
+
+        System.out.println(area);
     }
 }
