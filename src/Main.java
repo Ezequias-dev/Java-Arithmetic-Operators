@@ -12,5 +12,12 @@ public class Main {
         double area = largura * altura;
 
         System.out.println(area);
+
+        // 3. Qual o resultado de System.out.println(5 + 3 * 2);? Explique por que
+        System.out.println(5 + 3 * 2);
+        /*
+            11 because the operator "*" has precedence greater than +,
+            therefore, first it is multiplied then added
+        */
     }
 }
