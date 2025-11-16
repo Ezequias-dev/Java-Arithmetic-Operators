@@ -19,5 +19,10 @@ public class Main {
         System.out.println(7 / 2);
         System.out.println(7 / 2.0);
         System.out.println((double) 7 / 2);
+
+        // 5. Data int n = 29; Calculate n % 5 (remainder) and indicate whether n is odd or even using %.
+        int n = 29;
+        System.out.println(n % 5);
+        System.out.println((n % 2 == 0) ? "even" : "odd");
     }
 }
